@@ -25,7 +25,7 @@ eureka:
       defaultZone: http://eureka7003.com:7003/eureka/, http://eureka7002.com:7002/eureka/, http://eureka7001.com:7001/eureka/
   instance:
     instance-id: springcloud-provider-dept8001 # 修改eureka上本服务的默认描述信息
-
+    prefer-ip-address: true   # eureka界面上，鼠标在status上停留时出现在左下角的网址
 
 # info配置 配置eureka页面上本服务的详细信息
 info:
